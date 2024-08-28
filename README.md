@@ -61,7 +61,8 @@
     sed -e's_^auth-user-pass.*_auth-user-pass /home/test/cstoken_' -i *.ovpn
 
 
-#HERE is where you should move all the .ovpn files to /etc/openvpn/client
+#HERE is where you should move all the .ovpn files to /etc/openvpn/client                                                                                      
+
     cd /home/youruser/whereveryouuzipyourconfig.zip
     sudo mv * /etc/openvpn/client
 
